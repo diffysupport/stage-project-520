@@ -1,0 +1,55 @@
+basic:
+    name: 'https://www.kj.com'
+    environments:
+        production: 'https://www.kj.com'
+        staging: ''
+        development: ''
+    basicAuth:
+        production: { user: '', password: '' }
+        staging: { user: '', password: '' }
+        development: null
+    breakpoints:
+        - 640
+        - 760
+        - 768
+        - 1024
+        - 1080
+        - 1200
+        - 1440
+        - 1920
+    pages:
+        - '/shop-wines-featured-wine-sets/?prefn1=showInSearch&prefv1=webOnly%7Cboth&srule=product-name-ascending&start=0&sz=7'
+        - '/shop-wines-featured-merchandise/?prefn1=showInSearch&prefv1=webOnly%7Cboth&srule=product-name-ascending&start=0&sz=1'
+        - '/shop-wines/?prefn1=showInSearch&prefv1=webOnly%7Cboth&srule=product-name-ascending&start=0&sz=24'
+        - '/shop-wines-vintners-reserve/?prefn1=showInSearch&prefv1=webOnly%7Cboth&srule=product-name-ascending&start=0&sz=12'
+        - '/shop-wines-by-collection-grand-reserve/?prefn1=showInSearch&prefv1=webOnly%7Cboth&srule=product-name-ascending&start=0&sz=5'
+        - '/shop-wines-jackson-estate/?prefn1=showInSearch&prefv1=webOnly%7Cboth&srule=product-name-ascending&start=0&sz=24'
+        - '/shop-wines-stature/?prefn1=showInSearch&prefv1=webOnly%7Cboth&srule=product-name-ascending&start=0&sz=5'
+    monitoring:
+        days: {  }
+        type: daily
+        schedule_time: '12:30 AM'
+        schedule_time_zone: Europe/London
+        compare_with: last-production
+        compare_with_fresh: production
+advanced:
+    mask: ''
+    remove: ''
+    delay: 15
+    scroll: true
+    headers:
+        - { header: '', value: '' }
+    cookies: ''
+    custom_js: ''
+    custom_css: ''
+    mock_content: ''
+    sensitivity: 15
+    night_mode: false
+    retina_images: false
+    single_ip: false
+    performance:
+        workers_production: 30
+        workers_nonproduction: 10
+        workers_production_delay: 0
+        workers_nonproduction_delay: 0
+    stabilize: true
