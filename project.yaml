@@ -29,7 +29,7 @@ basic:
         compare_with_fresh: production
 advanced:
     mask: ''
-    remove: '#modal-agegate, .osano-cm-window__dialog, .modal-backdrop.show, .plp-back-to-top_content, #legalNotification, section.im-header, aside.spb.spb--sitePromotionalBannerLocation-belowheader.spb--sitePromotionalBannerID-kj-promotional-banner.js-height-promotionbanner.spb--loaded, .jfw-plp-storepage__above-product-grid-wrapper, .jfw-plp-storepage__below-product-grid, div#userwayAccessibilityIcon'
+    remove: '#modal-agegate, .osano-cm-window__dialog, .modal-backdrop.show, .plp-back-to-top_content, #legalNotification, section.im-header, aside.spb.spb--sitePromotionalBannerLocation-belowheader.spb--sitePromotionalBannerID-kj-promotional-banner.js-height-promotionbanner.spb--loaded, div#userwayAccessibilityIcon'
     delay: 15
     scroll: true
     headers:
